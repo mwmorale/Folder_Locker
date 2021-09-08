@@ -2,7 +2,7 @@
 
 ----- GENERAL -----
 
-After using my Mac(Apple), I noticed how odd it is that Windows does not have a method of "locking" folders. So, I automated this here and now have this capability on my Windows device(and, now, so do you). My program only requires this project's code to be run one single time and can be used easily after this without code/internet etc. This is a work in progress, is intended to manipulate "Desktop" within C drive, was tested using Windows 10 and assumes that your current "User" is your selection. This is written in Python and uses "subprocess" and "os" imports.
+After using my Mac(Apple), I noticed how odd it is that Windows does not have a method of password "locking" folders. So, I automated this here and now have this capability on my Windows device(and, now, so do you). The code in the project/repo must only be run one single time and, then, can be used easily after this without access to the file, GitHub or even the internet. This is a work in progress - it is intended to manipulate "Desktop" within C drive, was tested/developed using Windows 10 and assumes that your current "User" is your desired selection. Python is used. Libraries "subprocess" and "os" are imported/used.
 -------------------
 
 
