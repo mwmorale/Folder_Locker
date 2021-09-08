@@ -8,14 +8,18 @@ After using my Mac(Apple), I noticed how odd it is that Windows does not have a 
 
 
 ----- create_target.py -----
+
+This file access's/computes the local users file path options and configures the correct file path "route" to work within. The users "Desktop" on the C drive is chosen by default so that the "VAULT" can easily be found. The drive that the user is operating on will be used for this entire process.
 ----------------------------
 
 
 
 ----- run_me.py -----
 
-This file must be run in order for the tool/process to operate successfully. It deals with the path existence and/or non-existence as well as the file/folder creation, and document type conversions. 
+This file(and only this file) must be run in order for the tool/process to operate successfully and as intended. It deals with the path existence and/or non-existence as well as the file/folder creation, and document type conversions. 
 ---------------------
+
+
 
 ----- sys_lock_internals.py -----
 
